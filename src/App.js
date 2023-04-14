@@ -39,7 +39,7 @@ Button.defaultProps = {
 };
 
 function clickMe() {
-  const default_endpoint = "https://iamkd3trq0.execute-api.us-west-2.amazonaws.com/default/0StampLambda";
+  const default_endpoint = "https://iamkd3trq0.execute-api.us-west-2.amazonaws.com/default/";
   fetch(default_endpoint, {
         crossDomain: true,
         method: 'POST',
